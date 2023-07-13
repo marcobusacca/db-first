@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2023-07-13T16:01:53.172Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TnBklUYj5rH8Eg1RIEfo" version="21.6.2" type="device">
+  <diagram name="Page-1" id="pmdQV_1B9S52_ut4sHCF">
+    <mxGraphModel dx="2074" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WOYTlrC4-3-BNulbASP3-1" value="AUTO USATE" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="340" width="850" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="WOYTlrC4-3-BNulbASP3-2" value="ID ---&amp;gt; INT ---&amp;gt; PRIMARY_KEY, NOT NULL, UNIQUE, AUTO_INCREMENT" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WOYTlrC4-3-BNulbASP3-1">
+          <mxGeometry y="30" width="850" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WOYTlrC4-3-BNulbASP3-3" value="marca ---&amp;gt; VARCHAR(40) ---&amp;gt; NOT NULL" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="WOYTlrC4-3-BNulbASP3-1">
+          <mxGeometry y="60" width="850" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WOYTlrC4-3-BNulbASP3-4" value="modello ---&amp;gt;&amp;nbsp;VARCHAR(30)&amp;nbsp;---&amp;gt; NOT NULL" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WOYTlrC4-3-BNulbASP3-1">
+          <mxGeometry y="90" width="850" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WOYTlrC4-3-BNulbASP3-6" value="versione&amp;nbsp;---&amp;gt;&amp;nbsp;VARCHAR(30)&amp;nbsp;---&amp;gt; NOT NULL" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WOYTlrC4-3-BNulbASP3-1">
+          <mxGeometry y="120" width="850" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WOYTlrC4-3-BNulbASP3-7" value="carrozzeria&amp;nbsp;---&amp;gt;&amp;nbsp;VARCHAR(25)&amp;nbsp;---&amp;gt; NOT NULL" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WOYTlrC4-3-BNulbASP3-1">
+          <mxGeometry y="150" width="850" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WOYTlrC4-3-BNulbASP3-8" value="carburante&amp;nbsp;---&amp;gt;&amp;nbsp;VARCHAR(20)&amp;nbsp;---&amp;gt; NOT NULL" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WOYTlrC4-3-BNulbASP3-1">
+          <mxGeometry y="180" width="850" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WOYTlrC4-3-BNulbASP3-11" value="tipologia_cambio&amp;nbsp;---&amp;gt;&amp;nbsp;VARCHAR(15)&amp;nbsp;---&amp;gt; NOT NULL" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WOYTlrC4-3-BNulbASP3-1">
+          <mxGeometry y="210" width="850" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WOYTlrC4-3-BNulbASP3-12" value="numero_porte&amp;nbsp;---&amp;gt; TINYINT&amp;nbsp;---&amp;gt; NOT NULL, DEFAULT(0)" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WOYTlrC4-3-BNulbASP3-1">
+          <mxGeometry y="240" width="850" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WOYTlrC4-3-BNulbASP3-13" value="numero_posti&amp;nbsp;---&amp;gt; TINYINT&amp;nbsp;---&amp;gt; NOT NULL, DEFAULT(0)" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WOYTlrC4-3-BNulbASP3-1">
+          <mxGeometry y="270" width="850" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WOYTlrC4-3-BNulbASP3-14" value="classe_emissioni&amp;nbsp;---&amp;gt; VARCHAR(10)&amp;nbsp;---&amp;gt; NULL" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WOYTlrC4-3-BNulbASP3-1">
+          <mxGeometry y="300" width="850" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WOYTlrC4-3-BNulbASP3-15" value="anno&amp;nbsp;---&amp;gt; YEAR&amp;nbsp;---&amp;gt; NOT NULL" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WOYTlrC4-3-BNulbASP3-1">
+          <mxGeometry y="330" width="850" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WOYTlrC4-3-BNulbASP3-16" value="chilometraggio&amp;nbsp;---&amp;gt; MEDIUMINT&amp;nbsp;---&amp;gt; NOT NULL, DEFAULT(0)" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WOYTlrC4-3-BNulbASP3-1">
+          <mxGeometry y="360" width="850" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WOYTlrC4-3-BNulbASP3-17" value="prezzo&amp;nbsp;---&amp;gt; MEDIUMINT&amp;nbsp;---&amp;gt; NOT NULL, DEFAULT(0)" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WOYTlrC4-3-BNulbASP3-1">
+          <mxGeometry y="390" width="850" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
